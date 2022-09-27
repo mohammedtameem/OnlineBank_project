@@ -1,0 +1,27 @@
+steps
+-------
+import the project and update it as maven project
+please update your username and password in application.properties
+before running the project create a database by name stack
+
+--------
+command 
+----------
+create database stack;
+use stack;
+
+after creating the database as mentioned in above command execute the below command.
+--------------------------------------------------------
+insert into role values(0,'ROLE_USER');
+insert into role values(1,'ROLE_ADMIN');
+
+
+after this go to browser
+type: localhost:8081 and u will see the login page
+first signup by adding ur details and then u can login with username and password
+wat u mentioned in the signup page.
+
+
+
+Any doubts dnt call just ping up :)
+
